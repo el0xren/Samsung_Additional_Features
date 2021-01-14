@@ -12,6 +12,9 @@ Search for the following line in floating_feature.xml:
 <SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>
 ```
 And change value from "LowEnd" or "Mass" to "HighEnd"
+```
+<SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>HighEnd</SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>
+```
 
 ### ¬ Enable High Performance Mode
 ```
@@ -200,7 +203,8 @@ Change values from 0 to your dependencies
 <SEC_FLOATING_FEATURE_LAUNCHER_SUPPORT_CLOCK_LIVE_ICON>TRUE</SEC_FLOATING_FEATURE_LAUNCHER_SUPPORT_CLOCK_LIVE_ICO
 ```
 
-### ¬ Change battery capacity, change values from 0000 to your dependencies.
+### ¬ Change battery capacity
+Change values from 0000 to your dependencies.
 ```
 <SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BATTERY_CAPACITY>0000 mAh</SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BATTERY_CAPACITY>
 ```
