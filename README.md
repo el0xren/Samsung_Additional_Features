@@ -5,8 +5,8 @@
 <p align="center">
 
 <img src="https://img.shields.io/badge/made%20by-el0xren-blue.svg" >
-<img src="https://img.shields.io/github/stars/silent-lad/Samsung_Additional_Features.svg?style=flat">
-<img src="https://img.shields.io/github/issues/silent-lad/Samsung_Additional_Features.svg">
+<img src="https://img.shields.io/github/stars/el0xren/Samsung_Additional_Features?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/el0xren/Samsung_Additional_Features?style=for-the-badge">
 
 </p>
 
