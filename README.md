@@ -367,7 +367,7 @@ vendor\overlay\IconShapeSquircle
 vendor\overlay\IconShapeTeardrop
 ```
 
-### Only for devices without dynamic partitions.
+### Only for devices with dynamic partitions.
 ```
 product\sipdb\en_us
 product\sipdb\hi_en
