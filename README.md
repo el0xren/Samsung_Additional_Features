@@ -4,7 +4,7 @@
 
 <p align="center">
 
-<img src="https://img.shields.io/badge/made%20by-el0xren-blue.svg" >
+<img src="https://img.shields.io/badge/made%20by-el0xren-blue?style=for-the-badge&logo=appveyor" >
 <img src="https://img.shields.io/github/stars/el0xren/Samsung_Additional_Features?style=for-the-badge">
 <img src="https://img.shields.io/github/issues/el0xren/Samsung_Additional_Features?style=for-the-badge">
 
