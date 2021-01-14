@@ -6,9 +6,7 @@
 
 <img src="https://img.shields.io/badge/made%20by-el0xren-blue.svg" >
 
-<img src="https://img.shields.io/github/stars/silent-lad/Samsung-Mods.svg?style=flat">
 
-<img src="https://img.shields.io/github/issues/silent-lad/Samsung-Mods.svg">
 </p>
 
 <li>Debloat list - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/debloat">Here</a>
