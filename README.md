@@ -11,7 +11,6 @@
 <img src="https://img.shields.io/github/issues/silent-lad/Samsung-Mods.svg">
 </p>
 
-[script](https://github.com/el0xren/Samsung_Additional_Features/tree/debloat)
 <li>Debloat list - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/debloat">Here</a>
 <li>Floating Feature Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/floatingfeature">Here</a>
 <li>Csc Feature Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/cscfeature">Here</a>
