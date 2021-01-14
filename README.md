@@ -80,6 +80,8 @@ system\app\DualClockDigital
 system\app\EasyFavoritesContactsWidget
 system\app\EasySettings
 system\app\ELMAgent
+system\app\ChocoEUKor
+system\app\CoolEUKor
 system\app\CarmodeStub
 system\app\ContainerAgent
 system\app\ContainerEventsRelayManager
@@ -107,6 +109,7 @@ system\app\GameOptimizer
 system\app\Hangouts
 system\app\GooglePrintRecommendationService
 system\app\GoogleTTS
+system\app\Internet
 system\app\KidsHome_Installer
 system\app\KLMSAgent
 system\app\KNOXAgent
@@ -137,6 +140,7 @@ system\app\PrintSpooler
 system\app\SafetyInformation
 system\app\SPDClient
 system\app\SecurityLogAgent
+system\app\RoseEUKor
 system\app\SwitchKnoxI
 system\app\SwitchKnoxII
 system\app\SamsungDaily
@@ -150,10 +154,12 @@ system\app\SBrowser_11.0_Removable
 system\app\SCPMClient_N
 system\app\SecHTMLViewer
 system\app\SmartReminder
+system\app\STalkback
 system\app\VisionARApps1.1
 system\app\TEEgrisTuiService
 system\app\talkback
 system\app\UniversalMDMClient
+system\app\VoiceNote_5.0
 system\app\WallpaperBackup
 system\app\WifiGuider
 system\app\VisionARApps_stub
@@ -199,6 +205,7 @@ system\priv-app\FBServices
 system\priv-app\FotaAgent
 system\priv-app\Fast
 system\priv-app\Fmm
+system\priv-app\FusedLocation
 system\priv-app\RubinVersion25
 system\priv-app\RubinVersion26
 system\priv-app\GalaxyAppsWidget_Phone_Dream
@@ -264,6 +271,9 @@ system\priv-app\SecVideoPlayer
 system\priv-app\ShareVideo
 system\priv-app\SNoteProvider
 system\priv-app\SetupIndiaServicesTnC
+system\priv-app\S Secure
+system\priv-app\SSecure
+system\priv-app\S_Secure
 system\priv-app\sCloudBackupApp
 system\priv-app\sCloudDataRelay
 system\priv-app\sCloudDataSync
