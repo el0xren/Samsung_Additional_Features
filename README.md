@@ -14,5 +14,5 @@
 <li>Floating Feature Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/floatingfeature">Here</a>
 <li>Csc Feature Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/cscfeature">Here</a>
 <li>Build.prop Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/buildprop">Here</a>
-<li>Kernel Tweaks - <a href=https://github.com/Avinash-Dwivedi/Pruh_Tweaks">Here</a>
-<li>Camera Tweaks - <a href=https://github.com/neel021000/MODS">Here</a>
+<li>Kernel Tweaks - <a href="https://github.com/Avinash-Dwivedi/Pruh_Tweaks">Here</a>
+<li>Camera Tweaks - <a href="https://github.com/neel021000/MODS">Here</a>
