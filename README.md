@@ -46,13 +46,18 @@ system\lib\libknoxdrawglfunction.so
 system\lib\libknox_encryption.so
 system\lib\libskmipc.a
 system\app\ARZone
+system\app\AutoBackup_release
 system\app\AASAservice
+system\app\AllShareCastPlayer
 system\app\AllShareAware
+system\app\AllshareFileShareClient
+system\app\AllshareFileShareServer
 system\app\AllshareFileShare
 system\app\AllshareMediaShare
 system\app\AntHalService
 system\app\ANTPlusPlugins
 system\app\ANTPlusTest
+system\app\AssistantMenu_M
 system\app\ARCore
 system\app\ARDrawing
 system\app\AutomationTest_FB
@@ -76,6 +81,7 @@ system\app\DioDict3Service
 system\app\Drive
 system\app\Dropbox
 system\app\DropboxOOBE
+system\app\OperaMax
 system\app\DualClockDigital
 system\app\EasyFavoritesContactsWidget
 system\app\EasySettings
@@ -87,19 +93,24 @@ system\app\ContainerAgent
 system\app\ContainerEventsRelayManager
 system\app\BuiltInPrintService
 system\app\DictDiotekForSec
+system\app\DictDiotek
+system\app\DictDiotek_update
 system\app\DRParser
 system\app\DuoStub
 system\app\EasymodeContactsWidget81
+system\app\EasymodeContactsWidget
 system\app\EdmSimPinService
 system\app\EmergencyLauncher
 system\app\EmergencyModeService
 system\app\EmergencyProvider
 system\app\Facebook_stub
+system\app\FBInstagram_stub
 system\app\FactoryAirCommandManager
 system\app\FactoryCameraFB
 system\app\FBAppManager
 system\app\FBAppManager_NS
 system\app\FlipboardBriefing
+system\app\FlipboardBriefingPanel
 system\app\Foundation
 system\app\GearManagerStub
 system\app\Gmail2
@@ -110,6 +121,7 @@ system\app\Hangouts
 system\app\GooglePrintRecommendationService
 system\app\GoogleTTS
 system\app\Internet
+system\app\Kies
 system\app\KidsHome_Installer
 system\app\KLMSAgent
 system\app\KNOXAgent
@@ -127,6 +139,7 @@ system\app\MyKNOXSetupWizard
 system\app\MyKNOXManager
 system\app\LinkSharing_v10
 system\app\LinkSharing_v11
+system\app\LinkSharing_v34
 system\app\LinkSharing_v40
 system\app\Maps
 system\app\MapsGo
@@ -169,6 +182,8 @@ system\app\Weather_SEP10.1
 system\app\Weather_SEP11.0
 system\app\Weather_SEP12.0
 system\app\Weather_SEP12.1
+system\app\Weather2017
+system\app\WeatherWidget2017
 system\app\Weather_Stub
 system\app\YouTube
 system\priv-app\AndroidAutoStub
@@ -181,6 +196,11 @@ system\priv-app\AvatarEmojiSticker_Q
 system\priv-app\AvatarEmojiSticker_Canvas
 system\priv-app\Bridge
 system\priv-app\Bixby
+system\priv-app\BixbyHome
+system\priv-app\BixbyAgentDummy
+system\priv-app\BixbyGlobalAction
+system\priv-app\BixbyPLMSync
+system\priv-app\BixbyVoiceInput
 system\priv-app\BixbyAgentStub
 system\priv-app\BixbyService
 system\priv-app\BixbyVisionFramework3
@@ -247,8 +267,10 @@ system\priv-app\OneDrive_Samsung_v3
 system\priv-app\OneDrive_Samsung_v3_Removable
 system\priv-app\PaymentFramework
 system\priv-app\PreloadInstaller
+system\priv-app\PowerPlanning
 system\priv-app\ringtoneBR
 system\priv-app\Routines
+system\priv-app\StorageManager
 system\priv-app\SamsungConnect
 system\priv-app\SamsungConnect_Stub
 system\priv-app\SamsungMax
@@ -257,6 +279,8 @@ system\priv-app\SamsungMembersStub
 system\priv-app\SamsungBilling
 system\priv-app\SamsungMultiConnectivity
 system\priv-app\SamsungPass
+system\priv-app\SamsungPass_1.1
+system\priv-app\SamsungPass_1.2
 system\priv-app\SamsungPayStub
 system\priv-app\SamsungPayStubMini
 system\priv-app\SamsungPositioning
@@ -268,12 +292,14 @@ system\priv-app\Samsungservice2_xxhdpi
 system\priv-app\SamsungVideo
 system\priv-app\SecVideo
 system\priv-app\SecVideoPlayer
+system\priv-app\SecLiveWallpapersPicker
 system\priv-app\ShareVideo
 system\priv-app\SNoteProvider
 system\priv-app\SetupIndiaServicesTnC
 system\priv-app\S Secure
 system\priv-app\SSecure
 system\priv-app\S_Secure
+system\priv-app\Sprotect
 system\priv-app\sCloudBackupApp
 system\priv-app\sCloudDataRelay
 system\priv-app\sCloudDataSync
@@ -299,6 +325,8 @@ system\priv-app\serviceModeApp_FB
 system\priv-app\SettingsBixby
 system\priv-app\SKMSAgent
 system\priv-app\SmartEpdgTestApp
+system\priv-app\SmartManager_v3
+system\priv-app\SmartManager_v3_DeviceSecurity
 system\priv-app\SmartManager_v6_DeviceSecurity
 system\priv-app\SPPPushClient
 system\priv-app\StickerCenter
@@ -308,6 +336,17 @@ system\priv-app\StickerFaceARFrame
 system\priv-app\StickerStamp
 system\priv-app\StickerFaceARAvatar
 system\priv-app\SystemUIBixby2
+system\priv-app\SVoice
+system\priv-app\SVoice_1.0
+system\priv-app\SVoiceLang_EnglishPack_GB_1.0
+system\priv-app\SVoiceLang_EnglishPack_US_1.0
+system\priv-app\SVoiceLang_FrenchPack_1.0
+system\priv-app\SVoiceLang_GermanPack_DE_1.0
+system\priv-app\SVoiceLang_ItalianPack_IT_1.0
+system\priv-app\SVoiceLang_RussianPack_RU_1.0
+system\priv-app\SVoiceLang_SpanishPack_ES_1.0
+system\priv-app\SVoicePLM
+system\priv-app\SVoicePLM_1.0
 system\priv-app\LogWriter
 system\priv-app\TADownloader
 system\priv-app\Tag
@@ -320,6 +359,7 @@ system\priv-app\Upday
 system\priv-app\Velvet
 system\priv-app\YourPhone_P1_5
 system\priv-app\YourPhone_Stub
+system\priv-app\KeyguardWallpaperUpdator
 system\priv-app\KeyguardMGSUpdator
 system\priv-app\KnoxCore
 system\priv-app\KnoxGuard
@@ -345,7 +385,10 @@ system\priv-app\NSFusedLocation_v5.0_UPG
 system\priv-app\SPDClient
 system\priv-app\SwitchKnoxI
 system\priv-app\SwitchKnoxII
-vendor\tima_measurement_info
+```
+
+### Only for devices without dynamic partitions
+```
 vendor\overlay\AccentColorBlack
 vendor\overlay\AccentColorCinnamon
 vendor\overlay\AccentColorGreen
@@ -377,12 +420,8 @@ vendor\overlay\IconShapeSquircle
 vendor\overlay\IconShapeTeardrop
 ```
 
-### Only for devices with dynamic partitions.
+### Only for devices with dynamic partitions
 ```
-product\sipdb\en_us
-product\sipdb\hi_en
-product\sipdb\mr_en
-product\sipdb\te_en
 product\overlay\AccentColorBlack
 product\overlay\AccentColorCinnamon
 product\overlay\AccentColorGreen
@@ -413,3 +452,4 @@ product\overlay\IconShapeSquare
 product\overlay\IconShapeSquircle
 product\overlay\IconShapeTeardrop
 ```
+
