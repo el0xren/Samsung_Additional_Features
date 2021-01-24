@@ -269,6 +269,7 @@ system\priv-app\OneDrive_Samsung_v3_Removable
 system\priv-app\PaymentFramework
 system\priv-app\PreloadInstaller
 system\priv-app\PowerPlanning
+system\priv-app\PowerPoint_SamsungStub
 system\priv-app\ringtoneBR
 system\priv-app\Routines
 system\priv-app\StorageManager
