@@ -217,6 +217,7 @@ system\priv-app\Excel_SamsungStub
 system\priv-app\LinkedIn_SamsungStub
 system\priv-app\EpdgService
 system\priv-app\EasySetup
+system\priv-app\Excel_SamsungStub
 system\priv-app\EmergencyInfo
 system\priv-app\EmojiUpdater
 system\priv-app\FBInstaller_NS
