@@ -214,6 +214,7 @@ system\priv-app\DeviceQualityAgent
 system\priv-app\DiagMonAgent
 system\priv-app\DigitalWellbeing
 system\priv-app\Excel_SamsungStub
+system\priv-app\Word_SamsungStub
 system\priv-app\LinkedIn_SamsungStub
 system\priv-app\EpdgService
 system\priv-app\EasySetup
