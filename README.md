@@ -421,6 +421,9 @@ vendor\overlay\IconShapeRoundedRect
 vendor\overlay\IconShapeSquare
 vendor\overlay\IconShapeSquircle
 vendor\overlay\IconShapeTeardrop
+product\overlay\IconShapePebble
+product\overlay\IconShapeTaperedRect
+product\overlay\IconShapeVessel
 ```
 
 ### Only for devices with dynamic partitions
@@ -454,5 +457,7 @@ product\overlay\IconShapeRoundedRect
 product\overlay\IconShapeSquare
 product\overlay\IconShapeSquircle
 product\overlay\IconShapeTeardrop
+product\overlay\IconShapePebble
+product\overlay\IconShapeTaperedRect
+product\overlay\IconShapeVessel
 ```
-
