@@ -16,3 +16,4 @@
 <li>Build.prop Tweaks - <a href="https://github.com/el0xren/Samsung_Additional_Features/tree/buildprop">Here</a>
 <li>Kernel Tweaks - <a href="https://github.com/Avinash-Dwivedi/Pruh_Tweaks">Here</a>
 <li>Camera Tweaks - <a href="https://github.com/neel021000/MODS">Here</a>
+<li>XDA Thread - <a href="https://forum.xda-developers.com/t/additional-features-for-samsung-devices.4181105/">Here</a>
