@@ -1,6 +1,13 @@
 # Csc Feature Tweaks
 Add these lines in product/omc/(your region)/config or for Dynamic Partition Devices optics/configs/carriers/(your carrier)/conf.
 
+### ¬ Alt Z Life
+```
+<CscFeature_Common_SupportPrivateMode>TRUE</CscFeature_Common_SupportPrivateMode>
+<CscFeature_Gallery_SupportAliveZoom>TRUE</CscFeature_Gallery_SupportAliveZoom>
+<CscFeature_Sip_ConfigAlivePrediction>multilingual</CscFeature_Sip_ConfigAlivePrediction>
+```
+
 ### ¬ Smart Manager
 ```
 <CscFeature_SmartManager_DisableAntiMalware>TRUE</CscFeature_SmartManager_DisableAntiMalware>
