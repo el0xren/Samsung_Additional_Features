@@ -22,7 +22,7 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 <SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>TRUE</SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>
 ```
 
-### ¬ Enable Flagship Edge Ligthining+ Animations
+### ¬ Enable Flagship Edge Ligthining+ Animations in Q (Needs OneUI 2.x)
 Search for the following line in floating_feature.xml:
 ```
 <SEC_FLOATING_FEATURE_COMMON_CONFIG_EDGE>
@@ -30,6 +30,11 @@ Search for the following line in floating_feature.xml:
 And remove  "-basic_lighting" line, then it should look like this:
 ```
 <SEC_FLOATING_FEATURE_COMMON_CONFIG_EDGE>people,task,circle,panel,-edgefeeds,edgelighting_v2,debug,cornerR:6.2,search,phonecolor,dot_bottom</SEC_FLOATING_FEATURE_COMMON_CONFIG_EDGE>
+```
+
+### ¬ Enable Flagship Edge Ligthining+ Animations in R (Needs OneUI 3.x)
+```
+<SEC_FLOATING_FEATURE_SYSTEMUI_CONFIG_EDGELIGHTING_FRAME_EFFECT>frame_effect</SEC_FLOATING_FEATURE_SYSTEMUI_CONFIG_EDGELIGHTING_FRAME_EFFECT>
 ```
 
 ### ¬ Enable Spotify as added alarm
