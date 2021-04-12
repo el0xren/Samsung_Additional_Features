@@ -22,7 +22,6 @@ ro.HOME_APP_ADJ=15
 ro.FOREGROUND_APP_ADJ=0
 ro.VISIBLE_APP_ADJ=4
 ro.HIDDEN_APP_MIN_ADJ=7
-ro.EMPTY_APP_ADJ=15
 ```
 
 ### ¬ Enable Multi User
