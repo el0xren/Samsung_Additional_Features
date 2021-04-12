@@ -1,11 +1,6 @@
 # Build.prop Tweaks
 Add these lines in Build.prop, which is located in system/system.
 
-### ¬ Enable High UI Fps
-```
-sys.use_fifo_ui=1
-```
-
 ### ¬ Enable Zygote preforking
 ```
 persist.device_config.runtime_native.usap_pool_enabled=true
@@ -23,15 +18,19 @@ ro.media.enc.hprof.vid.fps=65
 
 ### ¬ Enable Launcher in Memory
 ```
-ro.HOME_APP_ADJ=1
+ro.HOME_APP_ADJ=15
+ro.FOREGROUND_APP_ADJ=0
+ro.VISIBLE_APP_ADJ=4
+ro.HIDDEN_APP_MIN_ADJ=7
+ro.EMPTY_APP_ADJ=15
 ```
 
 ### ¬ Enable Multi User
 ```
-fw.max_users=30
+fw.max_users=5
 fw.show_multiuserui=1
-fw.show_hidden_users=1
-fw.power_user_switcher=1
+fw.showhiddenusers=1 
+fw.poweruserswitcher=1
 ```
 
 ### ¬ Enable Google Assistant
@@ -172,7 +171,6 @@ ro.ril.wake_lock_timeout=10000
 ### ¬ Audio Improvements
 ```
 vendor.audio.media.stereo.control=0
-af.resampler.quality=255
 persist.audio.dualmic.config=endfire
 persist.audio.fluence.mode=endfire
 persist.audio.fluence.voicecall=true
