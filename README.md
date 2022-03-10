@@ -1,5 +1,5 @@
 # Build.prop Tweaks
-Add these lines in Build.prop, which is located in system/system.
+Add these lines in Build.prop, which is located in system/system. (Some probably is placebo i haven't tested all of them)
 
 ### ¬ Enable Zygote preforking
 ```
