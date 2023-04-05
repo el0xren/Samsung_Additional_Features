@@ -192,3 +192,8 @@ vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 af.fast_track_multiplier=1
 ```
+
+### ¬ Extra Dim ( Add in /vendor/build.prop, might cause issues with DRM )
+```
+ro.surface_flinger.protected_contents=true
+```
