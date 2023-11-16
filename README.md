@@ -1,7 +1,9 @@
 # Floating Feature Tweaks 2.0 🍀
-Add these lines in system/etc/floating_feature.xml (One UI 4.x +)  or system/etc/floating_feature.xml (One UI <= 4.1) .
+Add these lines in system/etc/floating_feature.xml (One UI 4.x +)  or system/etc/floating_feature.xml (One UI <= 4.1).
 
-### ¬ Enable Flagship Launcher Animations
+### - Performance Tweaks ⚡️ -
+
+### 01. Enable Flagship Launcher Animations
 Search for the following line in floating_feature.xml:
 ```
 <SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>
@@ -10,23 +12,23 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 ```
 <SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>HighEnd</SEC_FLOATING_FEATURE_LAUNCHER_CONFIG_ANIMATION_TYPE>
 ```
-### ¬ Enable Processing Speed
+### 02. Enable Processing Speed
 ```
 <SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_PROCESSING>TRUE</SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_PROCESSING>
 ```
 
-### ¬ Enable Performance Profile
+### 03. Enable Performance Profile
 ```
 <SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_LOW_HEAT_MODE>TRUE</SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_LOW_HEAT_MODE>
 ```
 
-### ¬ Enable High Performance Mode
+### 04. Enable High Performance Mode
 ```
 <SEC_FLOATING_FEATURE_COMMON_SUPPORT_HIGH_PERFORMANCE_MODE>TRUE</SEC_FLOATING_FEATURE_COMMON_SUPPORT_HIGH_PERFORMANCE_MODE>
 <SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>TRUE</SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>
 ```
 
-### ¬ Enable Extra Screen Modes
+### 05. Enable Extra Screen Modes
 
 01. Search for this line and make its value ```FALSE```
 ```
