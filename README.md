@@ -37,6 +37,43 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 <•SEC_FLOATING_FEATURE_LCD_SUPPORT_WIDE_COLOR_GAMUT>
 ```
 
+### - Dolby Atmos Tweaks 🎶 - 
+
+### 01. Enable Dolby Atmos without Headsets
+- For devices with One UI 4.1 or Higher, you will need to download this version of SoundAlive and Place it in your ```/system/priv-app/SoundAlive*/```. (Backup and Delete your original apk first)
+- Link for the file: <a href="https://cloud.ravindu-deshan.workers.dev/0:/SoundAlive_80.apk">Click here</a>, <a href="https://www.dropbox.com/scl/fi/rnhxcgxgk949g26wl1rop/SoundAlive_80.apk?rlkey=ro9se1gecckrh2yotzpge2j22&dl=0">Mirror</a>
+```
+<SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DUAL_SPEAKER>TRUE</SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DUAL_SPEAKER>
+```
+Search for the following line in floating_feature.xml:
+```
+<SEC_FLOATING_FEATURE_AUDIO_CONFIG_SOUNDALIVE_VERSION>
+```
+And replace which these lines:
+```
+eq_knob,eq_custom,uhq_switch,uhq_level,adapt,spk_stereo,dvfs_860000,tube,concert
+```
+
+### 02. Enable Music Information in AOD
+Search for the following line in floating_feature.xml:
+```
+<SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>
+```
+And remove  "musicoff" line, then it should look like this:
+```
+<SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>aodversion=7,clearcoveroff</SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>
+```
+
+### 03. Enable Dolby Atmos in Games
+```
+<SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DEFAULT_ON_DOLBY_IN_GAME>TRUE</SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DEFAULT_ON_DOLBY_IN_GAME>
+```
+
+### 04. Enable Dolby Atmos Game Profiles
+```
+<SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DOLBY_GAME_PROFILE>TRUE</SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DOLBY_GAME_PROFILE>
+```
+
 ### ¬ Enable Flagship Edge Ligthining+ Animations in Q (Needs OneUI 2.x)
 Search for the following line in floating_feature.xml:
 ```
@@ -87,41 +124,6 @@ Search for the following line in floating_feature.xml:
 And add "clocktransition" and "activeclock=4" in the following line, then it should look like this:
 ```
 <SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>aodversion=7,clearcoveroff,clocktransition,activeclock=4</SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>
-```
-
-### ¬ Enable Dolby Atmos without Headsets
-- For devices with One UI 4.1 or Higher, you will need to download this version of SoundAlive and Place it in your ```/system/priv-app/SoundAlive*/```. (Backup and Delete your original apk first)
-- Link for the file: <a href="https://cloud.ravindu-deshan.workers.dev/0:/SoundAlive_80.apk">Click here</a>, <a href="https://www.dropbox.com/scl/fi/rnhxcgxgk949g26wl1rop/SoundAlive_80.apk?rlkey=ro9se1gecckrh2yotzpge2j22&dl=0">Mirror</a>
-```
-<SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DUAL_SPEAKER>TRUE</SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DUAL_SPEAKER>
-```
-Search for the following line in floating_feature.xml:
-```
-<SEC_FLOATING_FEATURE_AUDIO_CONFIG_SOUNDALIVE_VERSION>
-```
-And replace which these lines:
-```
-eq_knob,eq_custom,uhq_switch,uhq_level,adapt,spk_stereo,dvfs_860000,tube,concert
-```
-
-### ¬ Enable Music Information in AOD
-Search for the following line in floating_feature.xml:
-```
-<SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>
-```
-And remove  "musicoff" line, then it should look like this:
-```
-<SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>aodversion=7,clearcoveroff</SEC_FLOATING_FEATURE_FRAMEWORK_CONFIG_AOD_ITEM>
-```
-
-### ¬ Enable Dolby Atmos in Games
-```
-<SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DEFAULT_ON_DOLBY_IN_GAME>TRUE</SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DEFAULT_ON_DOLBY_IN_GAME>
-```
-
-### ¬ Enable Dolby Atmos Game Profiles
-```
-<SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DOLBY_GAME_PROFILE>TRUE</SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DOLBY_GAME_PROFILE>
 ```
 
 ### ¬ Enable Advanced Screen Capture
