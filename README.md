@@ -12,8 +12,12 @@ ro.media.panorama.frameres=1280×720
 ro.camcorder.videoModes=true
 ro.media.enc.hprof.vid.fps=65
 ```
+### 02. Better image quality, lower performance.
+```
+persist.sys.use_dithering=1
+```
 
-### 02. Faster streaming videos
+### 03. Faster streaming videos
 ```media.stagefright.enable-player=true
 media.stagefright.enable-meta=true
 media.stagefright.enable-scan=true
@@ -21,12 +25,12 @@ media.stagefright.enable-http=true
 media.stagefright.enable-rtsp=true
 media.stagefright.enable-record=false
 ```
-### 03. Disables built in error reporting.
+### 04. Disables built in error reporting.
 ```
 profiler.force_disable_err_rpt=1
 profiler.force_disable_ulog=1
 ```
-### 04. Better net speeds.
+### 05. Better net speeds.
 ```
 net.tcp.buffersize.default=4096,87380,256960, 4096, 16384,256960
 net.tcp.buffersize.wifi=4096,87380,256960,409 6,163 84,256960
@@ -34,27 +38,23 @@ net.tcp.buffersize.umts=4096,8 7380,256960,4096,163 84,256960
 net.tcp.buffersize.gprs=4096,8 7380,256960,4096,163 84,256960
 net.tcp.buffersize.edge=4096,8 7380,256960,4096,163 84,256960
 ```
-### 05. Disables logcat
+### 06. Disables logcat
 ```
 logcat.live=disable
 ```
-### 06. Phone rings immediately.
+### 07. Phone rings immediately.
 ```
 ro.telephony.call_ring.delay=0
 ring.delay=0
 ```
-### 07. Better call voice quality.
+### 08. Better call voice quality.
 ```
 ro.ril.enable.amr.wideband=1
 ```
-### 08. Better signal.
+### 09. Better signal.
 ```
 persist.cust.tel.eons=1
 ro.config.hw_fast_dormancy=1
-```
-### 09. Better image quality, lower performance.
-```
-persist.sys.use_dithering=1
 ```
 ### 10. Disable notification while adb is active
 ```
