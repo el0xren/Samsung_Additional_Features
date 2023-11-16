@@ -1,7 +1,7 @@
 # Floating Feature Tweaks 2.0 🍀
 Add these lines in system/etc/floating_feature.xml (One UI 4.x +)  or system/etc/floating_feature.xml (One UI <= 4.1).
 
-## <font color="green">- Performance Tweaks ⚡️ -</font>
+<font color="green"> - Performance Tweaks ⚡️ - </font>
 
 ### 01. Enable Flagship Launcher Animations
 Search for the following line in floating_feature.xml:
