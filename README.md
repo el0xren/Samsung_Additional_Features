@@ -28,11 +28,11 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 
 ### ¬ Enable Extra Screen Modes
 
-01. Search for this line and make it value ```FALSE```
+01. Search for this line and make its value ```FALSE```
 ```
 <SEC_FLOATING_FEATURE_LCD_SUPPORT_MDNIE_HW>
 ```
-02. Search for this line and make it value ```FALSE```
+02. Search for this line and make its value ```FALSE```
 ```
 <•SEC_FLOATING_FEATURE_LCD_SUPPORT_WIDE_COLOR_GAMUT>
 ```
