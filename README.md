@@ -91,7 +91,7 @@ And add "clocktransition" and "activeclock=4" in the following line, then it sho
 
 ### ¬ Enable Dolby Atmos without Headsets
 - For devices with One UI 4.1 or Higher, you will need to download this version of SoundAlive and Place it in your ```/system/priv-app/SoundAlive*/```. (Backup and Delete your original apk first)
-- Link for the file: [Link 1]([url](https://www.dropbox.com/scl/fi/rnhxcgxgk949g26wl1rop/SoundAlive_80.apk?rlkey=ro9se1gecckrh2yotzpge2j22&dl=0)), [Mirror]([url](https://cloud.ravindu-deshan.workers.dev/0:/SoundAlive_80.apk))
+- Link for the file: <a href="https://cloud.ravindu-deshan.workers.dev/0:/SoundAlive_80.apk">Click here</a>, <a href="https://www.dropbox.com/scl/fi/rnhxcgxgk949g26wl1rop/SoundAlive_80.apk?rlkey=ro9se1gecckrh2yotzpge2j22&dl=0">Mirror</a>
 ```
 <SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DUAL_SPEAKER>TRUE</SEC_FLOATING_FEATURE_AUDIO_SUPPORT_DUAL_SPEAKER>
 ```
