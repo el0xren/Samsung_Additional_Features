@@ -1,4 +1,4 @@
-# Floating Feature Tweaks
+# Floating Feature Tweaks 2.0 🍀
 Add these lines in system/etc/floating_feature.xml (One UI 4.x +)  or system/etc/floating_feature.xml (One UI <= 4.1) .
 
 ### ¬ Enable Flagship Launcher Animations
