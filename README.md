@@ -1,7 +1,7 @@
 # Floating Feature Tweaks 2.0 🍀
 Add these lines in system/etc/floating_feature.xml (One UI 4.x +)  or system/etc/floating_feature.xml (One UI <= 4.1).
 
-### - Performance Tweaks ⚡️ -
+## <font color="yellow">- Performance Tweaks ⚡️ -</font>
 
 ### 01. Enable Flagship Launcher Animations
 Search for the following line in floating_feature.xml:
@@ -39,7 +39,7 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 <•SEC_FLOATING_FEATURE_LCD_SUPPORT_WIDE_COLOR_GAMUT>
 ```
 
-### - Dolby Atmos Tweaks 🎶 - 
+## - Dolby Atmos Tweaks 🎶 - 
 
 ### 01. Enable Dolby Atmos without Headsets
 - For devices with One UI 4.1 or Higher, you will need to download this version of SoundAlive and Place it in your ```/system/priv-app/SoundAlive*/```. (Backup and Delete your original apk first)
