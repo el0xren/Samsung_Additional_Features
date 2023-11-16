@@ -1,10 +1,5 @@
 # Floating Feature Tweaks
-Add these lines in vendor/etc/floating_feature.xml or system/etc/floating_feature.xml.
-
-### ¬ Enable Multiwindow tray
-```
-<SEC_FLOATING_FEATURE_COMMON_CONFIG_MULTIWINDOW_TRAY>TRUE</SEC_FLOATING_FEATURE_COMMON_CONFIG_MULTIWINDOW_TRAY>
-```
+Add these lines in system/etc/floating_feature.xml (One UI 4.x +)  or system/etc/floating_feature.xml (One UI <= 4.1) .
 
 ### ¬ Enable Flagship Launcher Animations
 Search for the following line in floating_feature.xml:
@@ -45,6 +40,12 @@ And remove  "-basic_lighting" line, then it should look like this:
 ```
 <SEC_FLOATING_FEATURE_SYSTEMUI_CONFIG_EDGELIGHTING_FRAME_EFFECT>frame_effect</SEC_FLOATING_FEATURE_SYSTEMUI_CONFIG_EDGELIGHTING_FRAME_EFFECT>
 ```
+
+### ¬ Enable Multiwindow tray
+```
+<SEC_FLOATING_FEATURE_COMMON_CONFIG_MULTIWINDOW_TRAY>TRUE</SEC_FLOATING_FEATURE_COMMON_CONFIG_MULTIWINDOW_TRAY>
+```
+
 
 ### ¬ Enable Spotify as added alarm
 ```
