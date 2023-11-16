@@ -26,6 +26,17 @@ And change value from "LowEnd" or "Mass" to "HighEnd"
 <SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>TRUE</SEC_FLOATING_FEATURE_SYSTEM_SUPPORT_ENHANCED_CPU_RESPONSIVENESS>
 ```
 
+### ¬ Enable Extra Screen Modes
+
+01. Search for this line and make it value ```FALSE```
+```
+<SEC_FLOATING_FEATURE_LCD_SUPPORT_MDNIE_HW>
+```
+02. Search for this line and make it value ```FALSE```
+```
+<•SEC_FLOATING_FEATURE_LCD_SUPPORT_WIDE_COLOR_GAMUT>
+```
+
 ### ¬ Enable Flagship Edge Ligthining+ Animations in Q (Needs OneUI 2.x)
 Search for the following line in floating_feature.xml:
 ```
